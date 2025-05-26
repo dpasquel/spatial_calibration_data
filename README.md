@@ -1,7 +1,6 @@
-# Experimental Data
+This repository is an add-on of: Pasquel, D., Taylor, J.A., Tisseyre, B. and Roux, S.  *About drivers of performance for crop growth model calibration at the within-field scale*. Submitted to *European Journal of Agronomy*. 2025
 
-This folder contains the data used for analyses of the spatial calibration performance on virtual vineyards.
-
+It contains the simulated and observed values of vineyard predawn water potential used in the paper to analyze the performance of a spatial calibration procedure. Details on simulated and experimental data can be found in the associated article.
 
 ## Repository Contents
 
@@ -29,28 +28,28 @@ Each .Rdata file corresponds to a list object. For each .Rdata file, the first l
 In the studies, 1080 simulations were considered corresponding to :
 40 fields * 3 spatial structure modalities * 3 levels of correlation with the ancillary data * 3 spatial calibration level considered (i.e. field, site scale + the best within-field segmentation)
 
-Here, their is all the segmentations realiazed for the study (so not only the best within-field scale is available here).
+Note that, the .Rdata contain all  segmentations realized zed for the study (not only the best one).
 
 For each data.frame, the file structure is as follow :
 
-| Column             | Description                            |
-|--------------------|----------------------------------------|
-| `Date`             | Date (YYYY-MM-DD)                      |
-| `E`                | Eastern point reference                |
-| `N`                | Northern point reference               |
-| `measurement_site` | Number of the site within the vineyard |
-| `PWS_obs`          | Vine water potential observed          |
-| `PWS_sim`          | Vine water potential simulated         |
-|                    |  (at the considered spatial scale)     |
-|                    |                                        |
-| `cz.X.YYY`         | For the within-field modalities, this  |
-|                    | is the correspond zone of wich belong  |
-|                    | the considered measurement site        |
-|                    | X : level of segementtion              |
-|                    | YYY : level of correlation with the AD |
+| Column             | Description                                                                                                                                                             |
+|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `Date`             | Date (YYYY-MM-DD)                                                                                                                                                       |
+| `E`                | Eastern point reference                                                                                                                                                 |
+| `N`                | Northern point reference                                                                                                                                                |
+| `measurement_site` | Number of the site within vineyard                                                                                                                                      |
+| `PWS_obs`          | Vine water potential observed                                                                                                                                           |
+| `PWS_sim`          | Vine water potential simulated                                                                                                                                          |
+|                    |  (at the considered spatial scale)                                                                                                                                      |
+|                    |                                                                                                                                                                         |
+| `cz.X.YYY`         | For the within-field modalities, this is the zone to which belongs the considered measurement site (X : level of segmentation ; YYY : level of correlation with the AD) |
 
 
 ## Contact
 
 If you have any question, please contact :  
 *Daniel PASQUEL* – daniel.pasquel@inrae.fr
+
+## Author
+
+Daniel Pasquel, INRAE, 2025

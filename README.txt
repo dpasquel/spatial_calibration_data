@@ -1,7 +1,6 @@
 # Experimental Data
 
-This folder contains the data used for analyses of the spatial calibration performance on virtual vineyards.
-
+These datasets were used in the study 'About drivers of performance for crop growth model calibration at the within-field scale' from Pasquel D., Taylor J.A., Tisseyre B. and Roux S., this article is currently under revision at European Journal of Agronomy. This folder contains the data used for analyses of the spatial calibration performance on virtual vineyards.
 
 ## Repository Contents
 

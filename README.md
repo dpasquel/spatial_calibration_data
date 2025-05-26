@@ -39,9 +39,7 @@ For each data.frame, the file structure is as follow :
 | `N`                | Northern point reference                                                                                                                                                |
 | `measurement_site` | Number of the site within vineyard                                                                                                                                      |
 | `PWS_obs`          | Vine water potential observed                                                                                                                                           |
-| `PWS_sim`          | Vine water potential simulated                                                                                                                                          |
-|                    |  (at the considered spatial scale)                                                                                                                                      |
-|                    |                                                                                                                                                                         |
+| `PWS_sim`          | Vine water potential simulated (at the considered spatial scale)                                                                                                        |
 | `cz.X.YYY`         | For the within-field modalities, this is the zone to which belongs the considered measurement site (X : level of segmentation ; YYY : level of correlation with the AD) |
 
 

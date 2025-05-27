@@ -28,7 +28,7 @@ Each .Rdata file corresponds to a list object. For each .Rdata file, the first l
 In the studies, 1080 simulations were considered corresponding to :
 40 fields * 3 spatial structure modalities * 3 levels of correlation with the ancillary data * 3 spatial calibration level considered (i.e. field, site scale + the best within-field segmentation)
 
-Note that, the .Rdata contain all  segmentations realized zed for the study (not only the best one).
+Note that, the .Rdata contain all  segmentations realized for the study (not only the best one).
 
 For each data.frame, the file structure is as follow :
 
